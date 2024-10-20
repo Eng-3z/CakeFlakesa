@@ -73,17 +73,22 @@ const Add = () => {
                     <div className='add-category flex-col'>
                         <p>تصنيف المنتج</p>
                         <select name='category' onChange={onChangeHandler} >
-                            <option value="آراء العملاء">"آراء العملاء"</option>
-                            <option value="تحديد الجنس">"تحديد الجنس"</option>
-                            <option value="تخرج">"تخرج"</option>
-                            <option value="كيكات دورين">"كيكات دورين"</option>
-                            <option value="كيك لنش بوكس 6 انش">"كيك لنش بوكس 6 انش"</option>
-                            <option value="كيك لنش بوكس 8 انش">"كيك لنش بوكس 8 انش"</option>
-                            <option value="بوكس الإهداء">"بوكس الإهداء"</option>
-                            <option value="تنسيقات ورد و كيك">"تنسيقات ورد و كيك"</option>
-                            <option value="اكواب الكيك">"اكواب الكيك"</option>
-                            <option value="باقات الورد">"باقات الورد"</option>
-                            <option value="تصويركم">"تصويركم"</option>
+                            
+                            <option value="المولود">المولود</option>
+                            <option value="تخرج">تخرج</option>
+                            <option value="كيكات دورين">كيكات دورين</option>
+                            <option value="قبول | ترقية">قبول | ترقية</option>
+                            <option value="عيد سعيد">عيد سعيد</option>
+                            <option value="بوكس الإهداء">بوكس الإهداء</option>
+                            <option value="انمي">انمي</option>
+                            <option value="الميلاد">الميلاد</option>
+                            <option value="شفاء | سفر">شفاء | سفر</option>
+                            <option value="حب">حب</option>
+                            <option value="زواج | خطوبة">زواج | خطوبة</option>
+                            <option value="اكواب الكيك">اكواب الكيك</option>
+                            <option value="المناسبات الخاصة">المناسبات الخاصة</option>
+                            <option value="تصويركم">تصويركم</option>
+                            <option value="آراء العملاء">آراء العملاء</option>
                         </select>
                     </div>
                     <div className='add-price flex-col'>
