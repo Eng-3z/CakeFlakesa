@@ -11,6 +11,10 @@ import menu_8 from './menu_8.png'
 import menu_9 from './menu_9.png'
 import menu_10 from './menu_10.png'
 import menu_11 from './menu_11.png'
+import menu_12 from './menu_12.png'
+import menu_13 from './menu_13.png'
+import menu_14 from './menu_14.png'
+import menu_15 from './menu_15.png'
 
 
 export const assets = {
@@ -21,7 +25,7 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "تحديد الجنس",
+        menu_name: "المولود",
         menu_image: menu_1
     },
     {
@@ -33,11 +37,11 @@ export const menu_list = [
         menu_image: menu_3
     },
     {
-        menu_name: "كيك لنش بوكس 6 انش",
+        menu_name: "قبول | ترقية",
         menu_image: menu_4
     },
     {
-        menu_name: "كيك لنش بوكس 8 انش",
+        menu_name: "عيد سعيد",
         menu_image: menu_5
     },
     {
@@ -45,7 +49,7 @@ export const menu_list = [
         menu_image: menu_6
     },
     {
-        menu_name: "تنسيقات ورد و كيك",
+        menu_name: "انمي",
         menu_image: menu_7
     },
     {
@@ -53,16 +57,32 @@ export const menu_list = [
         menu_image: menu_8
     },
     {
-        menu_name: "باقات الورد",
+        menu_name: "الميلاد",
         menu_image: menu_9
     },
     {
-        menu_name: "آراء العملاء",
+        menu_name: "شفاء | سفر",
         menu_image: menu_10
     },
     {
-        menu_name: "تصويركم",
+        menu_name: "حب",
         menu_image: menu_11
+    },
+    {
+        menu_name: "زواج | خطوبة",
+        menu_image: menu_12
+    },
+    {
+        menu_name: "المناسبات الخاصة",
+        menu_image: menu_13
+    },
+    {
+        menu_name: "آراء العملاء",
+        menu_image: menu_14
+    },
+    {
+        menu_name: "تصويركم",
+        menu_image: menu_15
     },
     
 ]
